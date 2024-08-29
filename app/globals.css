@@ -6,6 +6,17 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --color-primary: #082c45;
+  --color-primaryGradient: #08447d;
+  --color-btn: #3fa3ec;
+  --color-date: #f9d515;
+  --color-white: #fff;
+  --color-bgwhite: #fff;
+  --color-black: #000;
+  --color-gray-100: #eeeded;
+  --color-gray-200: #cacaca;
+  --color-border: #666666;
+  --color-textprimary: #013362;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,13 +28,6 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
